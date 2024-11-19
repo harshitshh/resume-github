@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation, Link } from "react-router-dom";
 import styled from "styled-components";
 
-import logo from "../assets/resume.png";
+import logo from "../assets/Git2CV.png";
 
 const Navigation = styled.nav`
   position: sticky;
@@ -63,7 +63,7 @@ function Navbar({ titleColor, setTitleColor }) {
       </div>
       <div className="nav-links">
         {location.pathname === "/" ? (
-          <a href="https://github.com/satyam1203/resume-github">
+          <a href="https://github.com/harshitshh">
             <i className="fab fa-github"></i>Open in Github
           </a>
         ) : (
@@ -80,7 +80,7 @@ function Navbar({ titleColor, setTitleColor }) {
             </span>
           </>
         )}
-        <a href="https://github.com/satyam1203/resume-github/fork">
+        <a href="https://github.com/harshitshh">
           <i className="fas fa-code-branch"></i>Fork
         </a>
       </div>
